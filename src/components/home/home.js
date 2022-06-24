@@ -1,7 +1,13 @@
+import { Footer, Navbar } from "../../shared";
+import { Editor, OutputWindow } from ".";
+
 export default function HomeComponent() {
-    return(
-        <>
-            <h1 className="text-xl text-red-500 font-bold">Hello</h1>
-        </>
-    );
+  return (
+    <>
+      <Navbar />
+      <Editor />
+      <OutputWindow />
+      <Footer />
+    </>
+  );
 }

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="py-4 border-t-2">
+      <div className="py-4 border-t-2 mt-36">
         <p className="text-center">
           Made with ❤️ and ☕️ by{" "}
           <a

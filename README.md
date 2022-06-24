@@ -14,8 +14,8 @@ Crafted with <span style="color: #8b0000;">&hearts;</span> by Kushagra Gupta
 ## View Demo on the Deployed Site 🚀
 
 <p>Click https://sql-editor-react.netlify.app to view the deployed site</p>
+<img width="1499" alt="Screenshot 2022-06-25 at 1 46 06 AM" src="https://user-images.githubusercontent.com/60519359/175661079-89d5e3d7-6ab0-4233-93f0-6ab7df5467bc.png">
 
-![Homepage](src/assets/screenshots/screenshot-readme.png)
 
 ## 👨‍💻 Features
 
@@ -35,12 +35,22 @@ Crafted with <span style="color: #8b0000;">&hearts;</span> by Kushagra Gupta
 - `select * from shippers`
 - `select * from suppliers`
 
+
+## ⚙️ NPM Modules Used
+
+- `"react-ace": "^10.1.0",` - To make the code editor
+- `"react-csv-to-table": "^0.0.4",` - To show the output as a simple CSV table
+- `"react-dom": "^18.2.0",` - To interact with React's virtual DOM
+- `"react-icons": "^4.4.0",` - To have an icon library
+- `"react-router-dom": "^6.3.0",` - To implement routing features provided by React.js
+- `"react-toastify": "^9.0.5",` - To show the toast notifications for a success or error event
+
 ## ⏱ Page Load Time
 
 The Webapp loads in about 0.4 s to 0.6s. This is calculated by using Google Lighthouse tool in Chromium based browsers. 
-*NOTE: The Lighthouse Audits scores are decreased becaused of preinstalled browser extensions.*
+*NOTE: The Lighthouse Audits scores are decreased because of preinstalled browser extensions that are non-removable in my system.*
 
-![lighthouse report](src/assets/screenshots/screenshot-lighthouse.png)
+<img width="1498" alt="Screenshot 2022-06-25 at 1 39 20 AM" src="https://user-images.githubusercontent.com/60519359/175661159-8def9c6c-c769-4f6b-918b-0ff2e935793a.png">
 
 ## 🪜 Steps I took to optimize the page load time
 

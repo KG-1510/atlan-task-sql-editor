@@ -43,6 +43,9 @@ export default function Editor({ getQueryTable }) {
   return (
     <>
       <div className="flex flex-col items-center justify-center mx-auto my-8 w-11/12 rounded-lg">
+        <div className="w-full">
+          <h1 className="font-bold text-3xl my-2">Editor</h1>
+        </div>
         <AceEditor
           id="editor"
           aria-label="editor"

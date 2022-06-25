@@ -26,7 +26,8 @@ Crafted with <span style="color: #8b0000;">&hearts;</span> by Kushagra Gupta
 :white_check_mark: Users can get data of any of the predefined SQL queries either by using SQL Editor or Sidebar Menu.\
 :white_check_mark: Users can sort data directly by clicking the Table Headers title.\
 :white_check_mark: Users can search for a particular data among many records using the search bar.\
-:white_check_mark: Users can see query runtime in milliseconds(ms).
+:white_check_mark: Users can see query runtime in milliseconds(ms).\
+:white_check_mark: Users can download the output window table as CSV, with just a single click.
 
 ## ✍️ Predefined SQL Queries
 
@@ -46,6 +47,7 @@ Crafted with <span style="color: #8b0000;">&hearts;</span> by Kushagra Gupta
 - `"react-icons": "^4.4.0",` - To have an icon library
 - `"react-router-dom": "^6.3.0",` - To implement routing features provided by React.js
 - `"react-toastify": "^9.0.5",` - To show the toast notifications for a success or error event
+- `"react-csv": "^2.2.2",` - To export the output window table as CSV
 
 ## ⏱ Page Load Time
 

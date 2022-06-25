@@ -16,18 +16,38 @@ code {
     monospace;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+.container {
   width: 100%;
-  border: 1px solid #ddd;
+  max-width: 800px;
+  padding: 0 10px;
+  margin: 0 auto;
+  margin-top: 70px;
 }
 
-th,
-td {
-  text-align: left;
-  padding: 16px;
+.title {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr th {
+  font-size: 18px;
+  padding: 12px;
+  border: 1px solid #eeeeee;
+  text-align: center;
+  background-color: rgba(217, 221, 146, 0.2);
+}
+
+tr td {
+  border: 1px solid #eeeeee;
+  text-align: left;
+}
+
 
 tr:nth-child(even) {
   background-color: #f2f2f2;
